@@ -1,0 +1,8 @@
+#dark #login #login-form div:nth-of-type(1)::after, #day #login #login-form div:nth-of-type(1)::after {
+  content: 'Username , Email' !important;
+}
+
+#dark #login #login-form div:nth-of-type(2)::after, #day #login #login-form div:nth-of-type(2)::after {
+  content: 'Password' !important;
+}
+/*# sourceMappingURL=login.css.map */

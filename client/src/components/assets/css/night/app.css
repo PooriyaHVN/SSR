@@ -1,0 +1,275 @@
+@font-face {
+  font-family: GTWalsheim;
+  src: url("../../Font/GT/GT.eot"), url("../../Font//GT//GT.eot?#iefix") format("embedded-opentype"), url("../../Font/GT/GT.woff") format("woff"), url("../../Font/GT/GT.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: GTWalsheim !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#root {
+  position: relative;
+  overflow: hidden;
+}
+#spinner{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: black;
+  display: flex;
+  align-items: flex-start;
+  padding: 10rem 0;
+  justify-content: center;
+  z-index: 99999999999999;
+}
+
+#loading {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  z-index: 9999999999999;
+}
+
+
+#loading div {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+#loading :nth-child(1) {
+  background: #28c7fa;
+  -webkit-animation: loading 1500ms ease infinite;
+          animation: loading 1500ms ease infinite;
+}
+
+#loading :nth-child(2) {
+  background: #775ada;
+  -webkit-animation: loading 1500ms ease infinite;
+          animation: loading 1500ms ease infinite;
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+}
+
+#loading :nth-child(3) {
+  background: #071e3d;
+  -webkit-animation: loading 1500ms ease infinite;
+          animation: loading 1500ms ease infinite;
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+}
+
+#loading :nth-child(4) {
+  background: #ff304f;
+  -webkit-animation: loading 1500ms ease infinite;
+          animation: loading 1500ms ease infinite;
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+}
+
+@-webkit-keyframes loading {
+  0%, 100% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+
+@keyframes loading {
+  0%, 100% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+
+.glowing {
+  position: absolute;
+  height: 60% !important;
+  min-width: 750px;
+  margin: -150px;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-animation: colorChange 5s linear infinite;
+          animation: colorChange 5s linear infinite;
+  z-index: -1;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow: hidden !important;
+}
+
+.glowing:nth-child(even) {
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.glowing:nth-child(6), .glowing:nth-child(7), .glowing:nth-child(8) {
+  height: 160% !important;
+}
+
+.glowing span {
+  position: absolute;
+  top: calc(80px * var(--i));
+  left: calc(80px * var(--i));
+  bottom: calc(80px * var(--i));
+  right: calc(80px * var(--i));
+}
+
+.glowing span:nth-child(3n + 1) {
+  -webkit-animation: animate 10s alternate infinite;
+          animation: animate 10s alternate infinite;
+}
+
+.glowing span:nth-child(3n + 2) {
+  -webkit-animation: animate-reverse 3s alternate infinite;
+          animation: animate-reverse 3s alternate infinite;
+}
+
+.glowing span:nth-child(3n + 3) {
+  -webkit-animation: animate 8s alternate infinite;
+          animation: animate 8s alternate infinite;
+}
+
+.glowing span::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -8px;
+  height: 15px;
+  width: 15px;
+  background: #f00;
+  border-radius: 50%;
+}
+
+.glowing span:nth-child(3n + 1)::before {
+  background: #86ff00;
+  -webkit-box-shadow: 0 0 20px #86ff00, 0 0 40px #86ff00, 0 0 60px #86ff00, 0 0 80px #86ff00, 0 0 0 8px rgba(134, 255, 0, 0.1);
+          box-shadow: 0 0 20px #86ff00, 0 0 40px #86ff00, 0 0 60px #86ff00, 0 0 80px #86ff00, 0 0 0 8px rgba(134, 255, 0, 0.1);
+}
+
+.glowing span:nth-child(3n + 2)::before {
+  background: #ffd600;
+  -webkit-box-shadow: 0 0 20px #ffd600, 0 0 40px #ffd600, 0 0 60px #ffd600, 0 0 80px #ffd600, 0 0 0 8px rgba(255, 214, 0, 0.1);
+          box-shadow: 0 0 20px #ffd600, 0 0 40px #ffd600, 0 0 60px #ffd600, 0 0 80px #ffd600, 0 0 0 8px rgba(255, 214, 0, 0.1);
+}
+
+.glowing span:nth-child(3n + 3)::before {
+  background: cyan;
+  -webkit-box-shadow: 0 0 20px cyan, 0 0 40px cyan, 0 0 60px cyan, 0 0 80px cyan, 0 0 0 8px rgba(0, 255, 255, 0.1);
+          box-shadow: 0 0 20px cyan, 0 0 40px cyan, 0 0 60px cyan, 0 0 80px cyan, 0 0 0 8px rgba(0, 255, 255, 0.1);
+}
+
+#dark {
+  background: black;
+}
+
+#day {
+  background: #ccc;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes animate-reverse {
+  0% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes animate-reverse {
+  0% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes colorChange {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=app.css.map */

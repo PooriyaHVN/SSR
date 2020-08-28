@@ -1,0 +1,1208 @@
+#dark .skills {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#dark .skills header {
+  width: 100%;
+  text-align: center;
+}
+
+#dark .skills header svg {
+  fill: #2d6cdf;
+  margin: 0 1rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+#dark .skills header svg:hover {
+  border: 1px solid #2d6cdf;
+  -webkit-box-shadow: 0 0 10px #2d6cdf;
+          box-shadow: 0 0 10px #2d6cdf;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+#dark .skills .rowSkills {
+  width: 100%;
+}
+
+#dark .skills .rowSkills div {
+  position: relative;
+  width: 60%;
+  background: #fff;
+  padding: 1.6rem;
+  margin: 2rem auto;
+  border-radius: 25px;
+  background-position: 0;
+  overflow: hidden;
+  -webkit-transform: skew(13deg);
+          transform: skew(13deg);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(255, 214, 21, 0.4), -57.5px 20px 3.3px rgba(255, 214, 21, 0.297), -82.1px 40px 6px rgba(255, 214, 21, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(255, 214, 21, 0.184), -169.8px 100px 28.7px rgba(255, 214, 21, 0.149), -311px 120px 62px rgba(255, 214, 21, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(255, 214, 21, 0.4), -57.5px 20px 3.3px rgba(255, 214, 21, 0.297), -82.1px 40px 6px rgba(255, 214, 21, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(255, 214, 21, 0.184), -169.8px 100px 28.7px rgba(255, 214, 21, 0.149), -311px 120px 62px rgba(255, 214, 21, 0.103);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+#dark .skills .rowSkills div::before {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  -webkit-transition: top 300ms ease;
+  transition: top 300ms ease;
+}
+
+#dark .skills .rowSkills div::after {
+  position: absolute;
+  height: 60%;
+  width: 100%;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  bottom: -80%;
+  font-size: 20px;
+  font-weight: bold;
+  left: 0;
+  opacity: 0.6;
+  text-transform: capitalize;
+  -webkit-transition: bottom 350ms ease;
+  transition: bottom 350ms ease;
+}
+
+#dark .skills .rowSkills div:hover::before {
+  top: -70%;
+  -webkit-transition: top 300ms ease;
+  transition: top 300ms ease;
+}
+
+#dark .skills .rowSkills div:hover::after {
+  bottom: 0;
+  -webkit-transition: bottom 350ms ease;
+  transition: bottom 350ms ease;
+}
+
+#dark .skills .rowSkills div:hover {
+  -webkit-transform: skew(0);
+          transform: skew(0);
+  -webkit-box-shadow: 0 0 0 0 rgba(255, 214, 21, 0.184) !important;
+          box-shadow: 0 0 0 0 rgba(255, 214, 21, 0.184) !important;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+#dark .skills .rowSkills div span {
+  position: absolute;
+  margin: 0 auto;
+  opacity: 0.5;
+  background: -webkit-gradient(linear, left bottom, left top, from(#fff), color-stop(#fff), to(#fff));
+  background: linear-gradient(to top, #fff, #fff, #fff);
+  border-radius: 50%;
+  height: 100%;
+  width: 1%;
+  top: 0;
+  left: 0;
+  -webkit-animation: crossOver 5s ease infinite;
+          animation: crossOver 5s ease infinite;
+}
+
+#dark .skills .rowSkills div:nth-of-type(1) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#2d6cdf), to(#17b978));
+  background: linear-gradient(to top, #2d6cdf, #17b978);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(23, 185, 120, 0.4), -57.5px 20px 3.3px rgba(23, 185, 120, 0.297), -82.1px 40px 6px rgba(23, 185, 120, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(23, 185, 120, 0.184), -169.8px 100px 28.7px rgba(23, 185, 120, 0.149), -311px 120px 62px rgba(23, 185, 120, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(23, 185, 120, 0.4), -57.5px 20px 3.3px rgba(23, 185, 120, 0.297), -82.1px 40px 6px rgba(23, 185, 120, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(23, 185, 120, 0.184), -169.8px 100px 28.7px rgba(23, 185, 120, 0.149), -311px 120px 62px rgba(23, 185, 120, 0.103);
+}
+
+#dark .skills .rowSkills div:nth-of-type(1)::before {
+  content: 'html';
+}
+
+#dark .skills .rowSkills div:nth-of-type(1)::after {
+  content: '95%';
+}
+
+#dark .skills .rowSkills div:nth-of-type(2) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#9c1de7), to(#2d6cdf));
+  background: linear-gradient(to top, #9c1de7, #2d6cdf);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(45, 108, 223, 0.4), -57.5px 20px 3.3px rgba(45, 108, 223, 0.297), -82.1px 40px 6px rgba(45, 108, 223, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(45, 108, 223, 0.184), -169.8px 100px 28.7px rgba(45, 108, 223, 0.149), -311px 120px 62px rgba(45, 108, 223, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(45, 108, 223, 0.4), -57.5px 20px 3.3px rgba(45, 108, 223, 0.297), -82.1px 40px 6px rgba(45, 108, 223, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(45, 108, 223, 0.184), -169.8px 100px 28.7px rgba(45, 108, 223, 0.149), -311px 120px 62px rgba(45, 108, 223, 0.103);
+}
+
+#dark .skills .rowSkills div:nth-of-type(2)::before {
+  content: 'css';
+}
+
+#dark .skills .rowSkills div:nth-of-type(2)::after {
+  content: '95%';
+}
+
+#dark .skills .rowSkills div:nth-of-type(3) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#2d6cdf), to(#9c1de7));
+  background: linear-gradient(to top, #2d6cdf, #9c1de7);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(156, 29, 231, 0.4), -57.5px 20px 3.3px rgba(156, 29, 231, 0.297), -82.1px 40px 6px rgba(156, 29, 231, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(156, 29, 231, 0.184), -169.8px 100px 28.7px rgba(156, 29, 231, 0.149), -311px 120px 62px rgba(156, 29, 231, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(156, 29, 231, 0.4), -57.5px 20px 3.3px rgba(156, 29, 231, 0.297), -82.1px 40px 6px rgba(156, 29, 231, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(156, 29, 231, 0.184), -169.8px 100px 28.7px rgba(156, 29, 231, 0.149), -311px 120px 62px rgba(156, 29, 231, 0.103);
+}
+
+#dark .skills .rowSkills div:nth-of-type(3)::before {
+  content: 'scss';
+}
+
+#dark .skills .rowSkills div:nth-of-type(3)::after {
+  content: '95%';
+}
+
+#dark .skills .rowSkills div:nth-of-type(4) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#f9ff21), to(#9c1de7));
+  background: linear-gradient(to top, #f9ff21, #9c1de7);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(249, 255, 33, 0.4), -57.5px 20px 3.3px rgba(249, 255, 33, 0.297), -82.1px 40px 6px rgba(249, 255, 33, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(249, 255, 33, 0.184), -169.8px 100px 28.7px rgba(249, 255, 33, 0.149), -311px 120px 62px rgba(249, 255, 33, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(249, 255, 33, 0.4), -57.5px 20px 3.3px rgba(249, 255, 33, 0.297), -82.1px 40px 6px rgba(249, 255, 33, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(249, 255, 33, 0.184), -169.8px 100px 28.7px rgba(249, 255, 33, 0.149), -311px 120px 62px rgba(249, 255, 33, 0.103);
+}
+
+#dark .skills .rowSkills div:nth-of-type(4)::before {
+  content: 'javascript';
+}
+
+#dark .skills .rowSkills div:nth-of-type(4)::after {
+  content: '90%';
+}
+
+#dark .skills .rowSkills div:nth-of-type(5) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#2d6cdf), to(#f9ff21));
+  background: linear-gradient(to top, #2d6cdf, #f9ff21);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(45, 108, 223, 0.4), -57.5px 20px 3.3px rgba(45, 108, 223, 0.297), -82.1px 40px 6px rgba(45, 108, 223, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(45, 108, 223, 0.184), -169.8px 100px 28.7px rgba(45, 108, 223, 0.149), -311px 120px 62px rgba(45, 108, 223, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(45, 108, 223, 0.4), -57.5px 20px 3.3px rgba(45, 108, 223, 0.297), -82.1px 40px 6px rgba(45, 108, 223, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(45, 108, 223, 0.184), -169.8px 100px 28.7px rgba(45, 108, 223, 0.149), -311px 120px 62px rgba(45, 108, 223, 0.103);
+}
+
+#dark .skills .rowSkills div:nth-of-type(5)::before {
+  content: 'react';
+}
+
+#dark .skills .rowSkills div:nth-of-type(5)::after {
+  content: '90%';
+}
+
+#dark .skills .rowSkills div:nth-of-type(6) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#2d6cdf), to(#17b978));
+  background: linear-gradient(to top, #2d6cdf, #17b978);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(23, 185, 120, 0.4), -57.5px 20px 3.3px rgba(23, 185, 120, 0.297), -82.1px 40px 6px rgba(23, 185, 120, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(23, 185, 120, 0.184), -169.8px 100px 28.7px rgba(23, 185, 120, 0.149), -311px 120px 62px rgba(23, 185, 120, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(23, 185, 120, 0.4), -57.5px 20px 3.3px rgba(23, 185, 120, 0.297), -82.1px 40px 6px rgba(23, 185, 120, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(23, 185, 120, 0.184), -169.8px 100px 28.7px rgba(23, 185, 120, 0.149), -311px 120px 62px rgba(23, 185, 120, 0.103);
+}
+
+#dark .skills .rowSkills div:nth-of-type(6)::before {
+  content: 'nodejs';
+}
+
+#dark .skills .rowSkills div:nth-of-type(6)::after {
+  content: '90%';
+}
+
+#dark .skills .rowSkills div:nth-of-type(7) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#17b978), to(#2d6cdf));
+  background: linear-gradient(to top, #17b978, #2d6cdf);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(23, 185, 120, 0.4), -57.5px 20px 3.3px rgba(23, 185, 120, 0.297), -82.1px 40px 6px rgba(23, 185, 120, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(23, 185, 120, 0.184), -169.8px 100px 28.7px rgba(23, 185, 120, 0.149), -311px 120px 62px rgba(23, 185, 120, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(23, 185, 120, 0.4), -57.5px 20px 3.3px rgba(23, 185, 120, 0.297), -82.1px 40px 6px rgba(23, 185, 120, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(23, 185, 120, 0.184), -169.8px 100px 28.7px rgba(23, 185, 120, 0.149), -311px 120px 62px rgba(23, 185, 120, 0.103);
+}
+
+#dark .skills .rowSkills div:nth-of-type(7)::before {
+  content: 'mongo db';
+}
+
+#dark .skills .rowSkills div:nth-of-type(7)::after {
+  content: '70%';
+}
+
+#dark .skills .rowSkills div:nth-of-type(8) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#2d6cdf), to(#17b978));
+  background: linear-gradient(to top, #2d6cdf, #17b978);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(45, 108, 223, 0.4), -57.5px 20px 3.3px rgba(45, 108, 223, 0.297), -82.1px 40px 6px rgba(45, 108, 223, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(45, 108, 223, 0.184), -169.8px 100px 28.7px rgba(45, 108, 223, 0.149), -311px 120px 62px rgba(45, 108, 223, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(45, 108, 223, 0.4), -57.5px 20px 3.3px rgba(45, 108, 223, 0.297), -82.1px 40px 6px rgba(45, 108, 223, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(45, 108, 223, 0.184), -169.8px 100px 28.7px rgba(45, 108, 223, 0.149), -311px 120px 62px rgba(45, 108, 223, 0.103);
+}
+
+#dark .skills .rowSkills div:nth-of-type(8)::before {
+  content: 'mysql';
+}
+
+#dark .skills .rowSkills div:nth-of-type(8)::after {
+  content: '50%';
+}
+
+#dark .skills .rowSkills div:nth-of-type(9) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#17b978), to(#2d6cdf));
+  background: linear-gradient(to top, #17b978, #2d6cdf);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(156, 29, 231, 0.4), -57.5px 20px 3.3px rgba(156, 29, 231, 0.297), -82.1px 40px 6px rgba(156, 29, 231, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(156, 29, 231, 0.184), -169.8px 100px 28.7px rgba(156, 29, 231, 0.149), -311px 120px 62px rgba(156, 29, 231, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(156, 29, 231, 0.4), -57.5px 20px 3.3px rgba(156, 29, 231, 0.297), -82.1px 40px 6px rgba(156, 29, 231, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(156, 29, 231, 0.184), -169.8px 100px 28.7px rgba(156, 29, 231, 0.149), -311px 120px 62px rgba(156, 29, 231, 0.103);
+}
+
+#dark .skills .rowSkills div:nth-of-type(9)::before {
+  content: 'redux';
+}
+
+#dark .skills .rowSkills div:nth-of-type(9)::after {
+  content: '80%';
+}
+
+#dark .skills .rowSkills div:nth-of-type(10) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#fc5185), to(#17b978));
+  background: linear-gradient(to top, #fc5185, #17b978);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(252, 81, 133, 0.4), -57.5px 20px 3.3px rgba(252, 81, 133, 0.297), -82.1px 40px 6px rgba(252, 81, 133, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(252, 81, 133, 0.184), -169.8px 100px 28.7px rgba(252, 81, 133, 0.149), -311px 120px 62px rgba(252, 81, 133, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(252, 81, 133, 0.4), -57.5px 20px 3.3px rgba(252, 81, 133, 0.297), -82.1px 40px 6px rgba(252, 81, 133, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(252, 81, 133, 0.184), -169.8px 100px 28.7px rgba(252, 81, 133, 0.149), -311px 120px 62px rgba(252, 81, 133, 0.103);
+}
+
+#dark .skills .rowSkills div:nth-of-type(10)::before {
+  content: 'graphql';
+}
+
+#dark .skills .rowSkills div:nth-of-type(10)::after {
+  content: '60%';
+}
+
+#dark .skills .rowSkills div:nth-of-type(11) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#e41749), to(#9c1de7));
+  background: linear-gradient(to top, #e41749, #9c1de7);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(228, 23, 73, 0.4), -57.5px 20px 3.3px rgba(228, 23, 73, 0.297), -82.1px 40px 6px rgba(228, 23, 73, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(228, 23, 73, 0.184), -169.8px 100px 28.7px rgba(228, 23, 73, 0.149), -311px 120px 62px rgba(228, 23, 73, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(228, 23, 73, 0.4), -57.5px 20px 3.3px rgba(228, 23, 73, 0.297), -82.1px 40px 6px rgba(228, 23, 73, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(228, 23, 73, 0.184), -169.8px 100px 28.7px rgba(228, 23, 73, 0.149), -311px 120px 62px rgba(228, 23, 73, 0.103);
+}
+
+#dark .skills .rowSkills div:nth-of-type(11)::before {
+  content: 'javascript experience';
+}
+
+#dark .skills .rowSkills div:nth-of-type(11)::after {
+  content: '95%';
+}
+
+#dark .skills .circleSkills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 5rem 2rem;
+}
+
+#dark .skills .circleSkills .html, #dark .skills .circleSkills .css, #dark .skills .circleSkills .scss,
+#dark .skills .circleSkills .js, #dark .skills .circleSkills .react, #dark .skills .circleSkills .nodejs,
+#dark .skills .circleSkills .Redux, #dark .skills .circleSkills .GraphQl,
+#dark .skills .circleSkills .mongodb, #dark .skills .circleSkills .mysql, #dark .skills .circleSkills .javascriptExperince {
+  position: relative;
+  margin: 1rem;
+  height: 250px;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+
+#dark .skills .circleSkills .html::before, #dark .skills .circleSkills .css::before, #dark .skills .circleSkills .scss::before,
+#dark .skills .circleSkills .js::before, #dark .skills .circleSkills .react::before, #dark .skills .circleSkills .nodejs::before,
+#dark .skills .circleSkills .Redux::before, #dark .skills .circleSkills .GraphQl::before,
+#dark .skills .circleSkills .mongodb::before, #dark .skills .circleSkills .mysql::before, #dark .skills .circleSkills .javascriptExperince::before {
+  position: absolute;
+  content: '100%';
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  z-index: -1;
+}
+
+#dark .skills .circleSkills .html::after, #dark .skills .circleSkills .css::after, #dark .skills .circleSkills .scss::after,
+#dark .skills .circleSkills .js::after, #dark .skills .circleSkills .react::after, #dark .skills .circleSkills .nodejs::after,
+#dark .skills .circleSkills .Redux::after, #dark .skills .circleSkills .GraphQl::after,
+#dark .skills .circleSkills .mongodb::after, #dark .skills .circleSkills .mysql::after, #dark .skills .circleSkills .javascriptExperince::after {
+  position: absolute;
+  content: '';
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  top: 60%;
+  width: 100%;
+  text-align: center;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  z-index: -1;
+}
+
+#dark .skills .circleSkills .html::after::first-letter, #dark .skills .circleSkills .css::after::first-letter, #dark .skills .circleSkills .scss::after::first-letter,
+#dark .skills .circleSkills .js::after::first-letter, #dark .skills .circleSkills .react::after::first-letter, #dark .skills .circleSkills .nodejs::after::first-letter,
+#dark .skills .circleSkills .Redux::after::first-letter, #dark .skills .circleSkills .GraphQl::after::first-letter,
+#dark .skills .circleSkills .mongodb::after::first-letter, #dark .skills .circleSkills .mysql::after::first-letter, #dark .skills .circleSkills .javascriptExperince::after::first-letter {
+  text-transform: uppercase;
+}
+
+#dark .skills .circleSkills .html svg, #dark .skills .circleSkills .css svg, #dark .skills .circleSkills .scss svg,
+#dark .skills .circleSkills .js svg, #dark .skills .circleSkills .react svg, #dark .skills .circleSkills .nodejs svg,
+#dark .skills .circleSkills .Redux svg, #dark .skills .circleSkills .GraphQl svg,
+#dark .skills .circleSkills .mongodb svg, #dark .skills .circleSkills .mysql svg, #dark .skills .circleSkills .javascriptExperince svg {
+  fill: transparent;
+  stroke: dodgerblue;
+  stroke-width: 20;
+  stroke-dasharray: 850;
+  stroke-dashoffset: 200;
+  overflow: visible !important;
+  -webkit-transition: stroke-width 50ms ease;
+  transition: stroke-width 50ms ease;
+}
+
+#dark .skills .circleSkills .html svg circle, #dark .skills .circleSkills .css svg circle, #dark .skills .circleSkills .scss svg circle,
+#dark .skills .circleSkills .js svg circle, #dark .skills .circleSkills .react svg circle, #dark .skills .circleSkills .nodejs svg circle,
+#dark .skills .circleSkills .Redux svg circle, #dark .skills .circleSkills .GraphQl svg circle,
+#dark .skills .circleSkills .mongodb svg circle, #dark .skills .circleSkills .mysql svg circle, #dark .skills .circleSkills .javascriptExperince svg circle {
+  margin: 0 auto;
+}
+
+#dark .skills .circleSkills .html:hover svg, #dark .skills .circleSkills .css:hover svg, #dark .skills .circleSkills .scss:hover svg,
+#dark .skills .circleSkills .js:hover svg, #dark .skills .circleSkills .react:hover svg, #dark .skills .circleSkills .nodejs:hover svg,
+#dark .skills .circleSkills .Redux:hover svg, #dark .skills .circleSkills .GraphQl:hover svg,
+#dark .skills .circleSkills .mongodb:hover svg, #dark .skills .circleSkills .mysql:hover svg, #dark .skills .circleSkills .javascriptExperince:hover svg {
+  stroke-width: 5 !important;
+  -webkit-transition: stroke-width 50ms ease;
+  transition: stroke-width 50ms ease;
+}
+
+#dark .skills .circleSkills .html::before {
+  content: '95%';
+}
+
+#dark .skills .circleSkills .html::after {
+  content: 'html';
+}
+
+#dark .skills .circleSkills .html svg {
+  stroke: #17b978;
+  stroke-dasharray: 850;
+  stroke-dashoffset: 200;
+}
+
+#dark .skills .circleSkills .scss::before {
+  content: '95%';
+}
+
+#dark .skills .circleSkills .scss::after {
+  content: 'scss';
+}
+
+#dark .skills .circleSkills .scss svg {
+  stroke: #9c1de7;
+  stroke-dasharray: 850;
+  stroke-dashoffset: 200;
+}
+
+#dark .skills .circleSkills .css::before {
+  content: '95%';
+}
+
+#dark .skills .circleSkills .css::after {
+  content: 'css';
+}
+
+#dark .skills .circleSkills .css svg {
+  stroke: #2d6cdf;
+  stroke-dasharray: 850;
+  stroke-dashoffset: 200;
+}
+
+#dark .skills .circleSkills .js::before {
+  content: '90%';
+}
+
+#dark .skills .circleSkills .js::after {
+  content: 'javascript';
+}
+
+#dark .skills .circleSkills .js svg {
+  stroke: #f9ff21;
+  stroke-dasharray: 750;
+  stroke-dashoffset: 150;
+}
+
+#dark .skills .circleSkills .react::before {
+  content: '90%';
+}
+
+#dark .skills .circleSkills .react::after {
+  content: 'react';
+}
+
+#dark .skills .circleSkills .react svg {
+  stroke: #2d6cdf;
+  stroke-dasharray: 750;
+  stroke-dashoffset: 150;
+}
+
+#dark .skills .circleSkills .Redux::before {
+  content: '80%';
+}
+
+#dark .skills .circleSkills .Redux::after {
+  content: 'redux';
+}
+
+#dark .skills .circleSkills .Redux svg {
+  stroke: #9c1de7;
+  stroke-dasharray: 650;
+  stroke-dashoffset: 150;
+}
+
+#dark .skills .circleSkills .GraphQl::before {
+  content: '60%';
+}
+
+#dark .skills .circleSkills .GraphQl::after {
+  content: 'graphQL';
+}
+
+#dark .skills .circleSkills .GraphQl svg {
+  stroke: #fc5185;
+  stroke-dasharray: 550;
+  stroke-dashoffset: 150;
+}
+
+#dark .skills .circleSkills .mongodb::before {
+  content: '70%';
+}
+
+#dark .skills .circleSkills .mongodb::after {
+  content: 'mongoDB';
+}
+
+#dark .skills .circleSkills .mongodb svg {
+  stroke: #17b978;
+  stroke-dasharray: 600;
+  stroke-dashoffset: 150;
+}
+
+#dark .skills .circleSkills .mysql::before {
+  content: '50%';
+}
+
+#dark .skills .circleSkills .mysql::after {
+  content: 'mysql';
+}
+
+#dark .skills .circleSkills .mysql svg {
+  stroke: #2d6cdf;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 150;
+}
+
+#dark .skills .circleSkills .nodejs::before {
+  content: '90%';
+}
+
+#dark .skills .circleSkills .nodejs::after {
+  content: 'nodejs';
+}
+
+#dark .skills .circleSkills .nodejs svg {
+  stroke: #17b978;
+  stroke-dasharray: 750;
+  stroke-dashoffset: 150;
+}
+
+#dark .skills .circleSkills .javascriptExperince::before {
+  content: '95%';
+}
+
+#dark .skills .circleSkills .javascriptExperince::after {
+  content: 'javascript Experince';
+  font-size: 19px !important;
+}
+
+#dark .skills .circleSkills .javascriptExperince svg {
+  stroke: #e41749;
+  stroke-dasharray: 850;
+  stroke-dashoffset: 200;
+}
+
+@-webkit-keyframes crossOver {
+  0% {
+    -webkit-transform: translateX(-1200px);
+            transform: translateX(-1200px);
+  }
+  90% {
+    -webkit-transform: translateX(1200px);
+            transform: translateX(1200px);
+  }
+}
+
+@keyframes crossOver {
+  0% {
+    -webkit-transform: translateX(-1200px);
+            transform: translateX(-1200px);
+  }
+  90% {
+    -webkit-transform: translateX(1200px);
+            transform: translateX(1200px);
+  }
+}
+
+@-webkit-keyframes show {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes show {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+.d-none {
+  display: none !important;
+}
+
+.d-flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+/* ***********************************day***********************************/
+#day .skills {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#day .skills header {
+  width: 100%;
+  text-align: center;
+}
+
+#day .skills header svg {
+  fill: #2d6cdf;
+  margin: 0 1rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+#day .skills header svg:hover {
+  border: 1px solid #2d6cdf;
+  -webkit-box-shadow: 0 0 10px #2d6cdf;
+          box-shadow: 0 0 10px #2d6cdf;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+#day .skills .rowSkills {
+  width: 100%;
+}
+
+#day .skills .rowSkills div {
+  position: relative;
+  width: 60%;
+  background: #fff;
+  padding: 1.6rem;
+  margin: 2rem auto;
+  border-radius: 25px;
+  background-position: 0;
+  overflow: hidden;
+  -webkit-transform: skew(13deg);
+          transform: skew(13deg);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(255, 214, 21, 0.4), -57.5px 20px 3.3px rgba(255, 214, 21, 0.297), -82.1px 40px 6px rgba(255, 214, 21, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(255, 214, 21, 0.184), -169.8px 100px 28.7px rgba(255, 214, 21, 0.149), -311px 120px 62px rgba(255, 214, 21, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(255, 214, 21, 0.4), -57.5px 20px 3.3px rgba(255, 214, 21, 0.297), -82.1px 40px 6px rgba(255, 214, 21, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(255, 214, 21, 0.184), -169.8px 100px 28.7px rgba(255, 214, 21, 0.149), -311px 120px 62px rgba(255, 214, 21, 0.103);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+#day .skills .rowSkills div::before {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  -webkit-transition: top 300ms ease;
+  transition: top 300ms ease;
+}
+
+#day .skills .rowSkills div::after {
+  position: absolute;
+  height: 60%;
+  width: 100%;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  bottom: -80%;
+  font-size: 20px;
+  font-weight: bold;
+  left: 0;
+  opacity: 0.6;
+  text-transform: capitalize;
+  -webkit-transition: bottom 350ms ease;
+  transition: bottom 350ms ease;
+}
+
+#day .skills .rowSkills div:hover::before {
+  top: -70%;
+  -webkit-transition: top 300ms ease;
+  transition: top 300ms ease;
+}
+
+#day .skills .rowSkills div:hover::after {
+  bottom: 0;
+  -webkit-transition: bottom 350ms ease;
+  transition: bottom 350ms ease;
+}
+
+#day .skills .rowSkills div:hover {
+  -webkit-transform: skew(0);
+          transform: skew(0);
+  -webkit-box-shadow: 0 0 0 0 rgba(255, 214, 21, 0.184) !important;
+          box-shadow: 0 0 0 0 rgba(255, 214, 21, 0.184) !important;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+#day .skills .rowSkills div span {
+  position: absolute;
+  margin: 0 auto;
+  opacity: 0.5;
+  background: -webkit-gradient(linear, left bottom, left top, from(#fff), color-stop(#fff), to(#fff));
+  background: linear-gradient(to top, #fff, #fff, #fff);
+  border-radius: 50%;
+  height: 100%;
+  width: 1%;
+  top: 0;
+  left: 0;
+  -webkit-animation: crossOver 5s ease infinite;
+          animation: crossOver 5s ease infinite;
+}
+
+#day .skills .rowSkills div:nth-of-type(1) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#2d6cdf), to(#17b978));
+  background: linear-gradient(to top, #2d6cdf, #17b978);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(23, 185, 120, 0.4), -57.5px 20px 3.3px rgba(23, 185, 120, 0.297), -82.1px 40px 6px rgba(23, 185, 120, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(23, 185, 120, 0.184), -169.8px 100px 28.7px rgba(23, 185, 120, 0.149), -311px 120px 62px rgba(23, 185, 120, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(23, 185, 120, 0.4), -57.5px 20px 3.3px rgba(23, 185, 120, 0.297), -82.1px 40px 6px rgba(23, 185, 120, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(23, 185, 120, 0.184), -169.8px 100px 28.7px rgba(23, 185, 120, 0.149), -311px 120px 62px rgba(23, 185, 120, 0.103);
+}
+
+#day .skills .rowSkills div:nth-of-type(1)::before {
+  content: 'html';
+}
+
+#day .skills .rowSkills div:nth-of-type(1)::after {
+  content: '95%';
+}
+
+#day .skills .rowSkills div:nth-of-type(2) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#9c1de7), to(#2d6cdf));
+  background: linear-gradient(to top, #9c1de7, #2d6cdf);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(45, 108, 223, 0.4), -57.5px 20px 3.3px rgba(45, 108, 223, 0.297), -82.1px 40px 6px rgba(45, 108, 223, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(45, 108, 223, 0.184), -169.8px 100px 28.7px rgba(45, 108, 223, 0.149), -311px 120px 62px rgba(45, 108, 223, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(45, 108, 223, 0.4), -57.5px 20px 3.3px rgba(45, 108, 223, 0.297), -82.1px 40px 6px rgba(45, 108, 223, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(45, 108, 223, 0.184), -169.8px 100px 28.7px rgba(45, 108, 223, 0.149), -311px 120px 62px rgba(45, 108, 223, 0.103);
+}
+
+#day .skills .rowSkills div:nth-of-type(2)::before {
+  content: 'css';
+}
+
+#day .skills .rowSkills div:nth-of-type(2)::after {
+  content: '95%';
+}
+
+#day .skills .rowSkills div:nth-of-type(3) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#2d6cdf), to(#9c1de7));
+  background: linear-gradient(to top, #2d6cdf, #9c1de7);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(156, 29, 231, 0.4), -57.5px 20px 3.3px rgba(156, 29, 231, 0.297), -82.1px 40px 6px rgba(156, 29, 231, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(156, 29, 231, 0.184), -169.8px 100px 28.7px rgba(156, 29, 231, 0.149), -311px 120px 62px rgba(156, 29, 231, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(156, 29, 231, 0.4), -57.5px 20px 3.3px rgba(156, 29, 231, 0.297), -82.1px 40px 6px rgba(156, 29, 231, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(156, 29, 231, 0.184), -169.8px 100px 28.7px rgba(156, 29, 231, 0.149), -311px 120px 62px rgba(156, 29, 231, 0.103);
+}
+
+#day .skills .rowSkills div:nth-of-type(3)::before {
+  content: 'scss';
+}
+
+#day .skills .rowSkills div:nth-of-type(3)::after {
+  content: '95%';
+}
+
+#day .skills .rowSkills div:nth-of-type(4) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#f9ff21), to(#9c1de7));
+  background: linear-gradient(to top, #f9ff21, #9c1de7);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(249, 255, 33, 0.4), -57.5px 20px 3.3px rgba(249, 255, 33, 0.297), -82.1px 40px 6px rgba(249, 255, 33, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(249, 255, 33, 0.184), -169.8px 100px 28.7px rgba(249, 255, 33, 0.149), -311px 120px 62px rgba(249, 255, 33, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(249, 255, 33, 0.4), -57.5px 20px 3.3px rgba(249, 255, 33, 0.297), -82.1px 40px 6px rgba(249, 255, 33, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(249, 255, 33, 0.184), -169.8px 100px 28.7px rgba(249, 255, 33, 0.149), -311px 120px 62px rgba(249, 255, 33, 0.103);
+}
+
+#day .skills .rowSkills div:nth-of-type(4)::before {
+  content: 'javascript';
+}
+
+#day .skills .rowSkills div:nth-of-type(4)::after {
+  content: '90%';
+}
+
+#day .skills .rowSkills div:nth-of-type(5) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#2d6cdf), to(#f9ff21));
+  background: linear-gradient(to top, #2d6cdf, #f9ff21);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(45, 108, 223, 0.4), -57.5px 20px 3.3px rgba(45, 108, 223, 0.297), -82.1px 40px 6px rgba(45, 108, 223, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(45, 108, 223, 0.184), -169.8px 100px 28.7px rgba(45, 108, 223, 0.149), -311px 120px 62px rgba(45, 108, 223, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(45, 108, 223, 0.4), -57.5px 20px 3.3px rgba(45, 108, 223, 0.297), -82.1px 40px 6px rgba(45, 108, 223, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(45, 108, 223, 0.184), -169.8px 100px 28.7px rgba(45, 108, 223, 0.149), -311px 120px 62px rgba(45, 108, 223, 0.103);
+}
+
+#day .skills .rowSkills div:nth-of-type(5)::before {
+  content: 'react';
+}
+
+#day .skills .rowSkills div:nth-of-type(5)::after {
+  content: '90%';
+}
+
+#day .skills .rowSkills div:nth-of-type(6) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#2d6cdf), to(#17b978));
+  background: linear-gradient(to top, #2d6cdf, #17b978);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(23, 185, 120, 0.4), -57.5px 20px 3.3px rgba(23, 185, 120, 0.297), -82.1px 40px 6px rgba(23, 185, 120, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(23, 185, 120, 0.184), -169.8px 100px 28.7px rgba(23, 185, 120, 0.149), -311px 120px 62px rgba(23, 185, 120, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(23, 185, 120, 0.4), -57.5px 20px 3.3px rgba(23, 185, 120, 0.297), -82.1px 40px 6px rgba(23, 185, 120, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(23, 185, 120, 0.184), -169.8px 100px 28.7px rgba(23, 185, 120, 0.149), -311px 120px 62px rgba(23, 185, 120, 0.103);
+}
+
+#day .skills .rowSkills div:nth-of-type(6)::before {
+  content: 'nodejs';
+}
+
+#day .skills .rowSkills div:nth-of-type(6)::after {
+  content: '90%';
+}
+
+#day .skills .rowSkills div:nth-of-type(7) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#17b978), to(#2d6cdf));
+  background: linear-gradient(to top, #17b978, #2d6cdf);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(23, 185, 120, 0.4), -57.5px 20px 3.3px rgba(23, 185, 120, 0.297), -82.1px 40px 6px rgba(23, 185, 120, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(23, 185, 120, 0.184), -169.8px 100px 28.7px rgba(23, 185, 120, 0.149), -311px 120px 62px rgba(23, 185, 120, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(23, 185, 120, 0.4), -57.5px 20px 3.3px rgba(23, 185, 120, 0.297), -82.1px 40px 6px rgba(23, 185, 120, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(23, 185, 120, 0.184), -169.8px 100px 28.7px rgba(23, 185, 120, 0.149), -311px 120px 62px rgba(23, 185, 120, 0.103);
+}
+
+#day .skills .rowSkills div:nth-of-type(7)::before {
+  content: 'mongo db';
+}
+
+#day .skills .rowSkills div:nth-of-type(7)::after {
+  content: '70%';
+}
+
+#day .skills .rowSkills div:nth-of-type(8) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#2d6cdf), to(#17b978));
+  background: linear-gradient(to top, #2d6cdf, #17b978);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(45, 108, 223, 0.4), -57.5px 20px 3.3px rgba(45, 108, 223, 0.297), -82.1px 40px 6px rgba(45, 108, 223, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(45, 108, 223, 0.184), -169.8px 100px 28.7px rgba(45, 108, 223, 0.149), -311px 120px 62px rgba(45, 108, 223, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(45, 108, 223, 0.4), -57.5px 20px 3.3px rgba(45, 108, 223, 0.297), -82.1px 40px 6px rgba(45, 108, 223, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(45, 108, 223, 0.184), -169.8px 100px 28.7px rgba(45, 108, 223, 0.149), -311px 120px 62px rgba(45, 108, 223, 0.103);
+}
+
+#day .skills .rowSkills div:nth-of-type(8)::before {
+  content: 'mysql';
+}
+
+#day .skills .rowSkills div:nth-of-type(8)::after {
+  content: '50%';
+}
+
+#day .skills .rowSkills div:nth-of-type(9) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#17b978), to(#2d6cdf));
+  background: linear-gradient(to top, #17b978, #2d6cdf);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(156, 29, 231, 0.4), -57.5px 20px 3.3px rgba(156, 29, 231, 0.297), -82.1px 40px 6px rgba(156, 29, 231, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(156, 29, 231, 0.184), -169.8px 100px 28.7px rgba(156, 29, 231, 0.149), -311px 120px 62px rgba(156, 29, 231, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(156, 29, 231, 0.4), -57.5px 20px 3.3px rgba(156, 29, 231, 0.297), -82.1px 40px 6px rgba(156, 29, 231, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(156, 29, 231, 0.184), -169.8px 100px 28.7px rgba(156, 29, 231, 0.149), -311px 120px 62px rgba(156, 29, 231, 0.103);
+}
+
+#day .skills .rowSkills div:nth-of-type(9)::before {
+  content: 'redux';
+}
+
+#day .skills .rowSkills div:nth-of-type(9)::after {
+  content: '80%';
+}
+
+#day .skills .rowSkills div:nth-of-type(10) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#fc5185), to(#17b978));
+  background: linear-gradient(to top, #fc5185, #17b978);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(252, 81, 133, 0.4), -57.5px 20px 3.3px rgba(252, 81, 133, 0.297), -82.1px 40px 6px rgba(252, 81, 133, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(252, 81, 133, 0.184), -169.8px 100px 28.7px rgba(252, 81, 133, 0.149), -311px 120px 62px rgba(252, 81, 133, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(252, 81, 133, 0.4), -57.5px 20px 3.3px rgba(252, 81, 133, 0.297), -82.1px 40px 6px rgba(252, 81, 133, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(252, 81, 133, 0.184), -169.8px 100px 28.7px rgba(252, 81, 133, 0.149), -311px 120px 62px rgba(252, 81, 133, 0.103);
+}
+
+#day .skills .rowSkills div:nth-of-type(10)::before {
+  content: 'graphql';
+}
+
+#day .skills .rowSkills div:nth-of-type(10)::after {
+  content: '60%';
+}
+
+#day .skills .rowSkills div:nth-of-type(11) {
+  background: -webkit-gradient(linear, left bottom, left top, from(#e41749), to(#9c1de7));
+  background: linear-gradient(to top, #e41749, #9c1de7);
+  -webkit-box-shadow: -30.2px 0 1.4px rgba(228, 23, 73, 0.4), -57.5px 20px 3.3px rgba(228, 23, 73, 0.297), -82.1px 40px 6px rgba(228, 23, 73, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(228, 23, 73, 0.184), -169.8px 100px 28.7px rgba(228, 23, 73, 0.149), -311px 120px 62px rgba(228, 23, 73, 0.103);
+          box-shadow: -30.2px 0 1.4px rgba(228, 23, 73, 0.4), -57.5px 20px 3.3px rgba(228, 23, 73, 0.297), -82.1px 40px 6px rgba(228, 23, 73, 0.251), -105.1px 60px 10px rgba(49, 48, 45, 0.216), -129.9px 80px 16.4px rgba(228, 23, 73, 0.184), -169.8px 100px 28.7px rgba(228, 23, 73, 0.149), -311px 120px 62px rgba(228, 23, 73, 0.103);
+}
+
+#day .skills .rowSkills div:nth-of-type(11)::before {
+  content: 'javascript experience';
+}
+
+#day .skills .rowSkills div:nth-of-type(11)::after {
+  content: '95%';
+}
+
+#day .skills .circleSkills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 5rem 2rem;
+}
+
+#day .skills .circleSkills .html, #day .skills .circleSkills .css, #day .skills .circleSkills .scss,
+#day .skills .circleSkills .js, #day .skills .circleSkills .react, #day .skills .circleSkills .nodejs,
+#day .skills .circleSkills .Redux, #day .skills .circleSkills .GraphQl,
+#day .skills .circleSkills .mongodb, #day .skills .circleSkills .mysql, #day .skills .circleSkills .javascriptExperince {
+  position: relative;
+  margin: 1rem;
+  height: 250px;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+
+#day .skills .circleSkills .html::before, #day .skills .circleSkills .css::before, #day .skills .circleSkills .scss::before,
+#day .skills .circleSkills .js::before, #day .skills .circleSkills .react::before, #day .skills .circleSkills .nodejs::before,
+#day .skills .circleSkills .Redux::before, #day .skills .circleSkills .GraphQl::before,
+#day .skills .circleSkills .mongodb::before, #day .skills .circleSkills .mysql::before, #day .skills .circleSkills .javascriptExperince::before {
+  position: absolute;
+  content: '100%';
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  z-index: -1;
+}
+
+#day .skills .circleSkills .html::after, #day .skills .circleSkills .css::after, #day .skills .circleSkills .scss::after,
+#day .skills .circleSkills .js::after, #day .skills .circleSkills .react::after, #day .skills .circleSkills .nodejs::after,
+#day .skills .circleSkills .Redux::after, #day .skills .circleSkills .GraphQl::after,
+#day .skills .circleSkills .mongodb::after, #day .skills .circleSkills .mysql::after, #day .skills .circleSkills .javascriptExperince::after {
+  position: absolute;
+  content: '';
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  top: 60%;
+  text-align: center;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  z-index: -1;
+}
+
+#day .skills .circleSkills .html::after::first-letter, #day .skills .circleSkills .css::after::first-letter, #day .skills .circleSkills .scss::after::first-letter,
+#day .skills .circleSkills .js::after::first-letter, #day .skills .circleSkills .react::after::first-letter, #day .skills .circleSkills .nodejs::after::first-letter,
+#day .skills .circleSkills .Redux::after::first-letter, #day .skills .circleSkills .GraphQl::after::first-letter,
+#day .skills .circleSkills .mongodb::after::first-letter, #day .skills .circleSkills .mysql::after::first-letter, #day .skills .circleSkills .javascriptExperince::after::first-letter {
+  text-transform: uppercase;
+}
+
+#day .skills .circleSkills .html svg, #day .skills .circleSkills .css svg, #day .skills .circleSkills .scss svg,
+#day .skills .circleSkills .js svg, #day .skills .circleSkills .react svg, #day .skills .circleSkills .nodejs svg,
+#day .skills .circleSkills .Redux svg, #day .skills .circleSkills .GraphQl svg,
+#day .skills .circleSkills .mongodb svg, #day .skills .circleSkills .mysql svg, #day .skills .circleSkills .javascriptExperince svg {
+  fill: transparent;
+  stroke: dodgerblue;
+  stroke-width: 20;
+  stroke-dasharray: 850;
+  stroke-dashoffset: 200;
+  overflow: visible !important;
+  -webkit-transition: all 50ms ease;
+  transition: all 50ms ease;
+}
+
+#day .skills .circleSkills .html svg circle, #day .skills .circleSkills .css svg circle, #day .skills .circleSkills .scss svg circle,
+#day .skills .circleSkills .js svg circle, #day .skills .circleSkills .react svg circle, #day .skills .circleSkills .nodejs svg circle,
+#day .skills .circleSkills .Redux svg circle, #day .skills .circleSkills .GraphQl svg circle,
+#day .skills .circleSkills .mongodb svg circle, #day .skills .circleSkills .mysql svg circle, #day .skills .circleSkills .javascriptExperince svg circle {
+  margin: 0 auto;
+}
+
+#day .skills .circleSkills .html:hover svg, #day .skills .circleSkills .css:hover svg, #day .skills .circleSkills .scss:hover svg,
+#day .skills .circleSkills .js:hover svg, #day .skills .circleSkills .react:hover svg, #day .skills .circleSkills .nodejs:hover svg,
+#day .skills .circleSkills .Redux:hover svg, #day .skills .circleSkills .GraphQl:hover svg,
+#day .skills .circleSkills .mongodb:hover svg, #day .skills .circleSkills .mysql:hover svg, #day .skills .circleSkills .javascriptExperince:hover svg {
+  stroke-width: 5 !important;
+  -webkit-transition: all 50ms ease;
+  transition: all 50ms ease;
+}
+
+#day .skills .circleSkills .html::before {
+  content: '95%';
+}
+
+#day .skills .circleSkills .html::after {
+  content: 'html';
+}
+
+#day .skills .circleSkills .html svg {
+  stroke: #17b978;
+  stroke-dasharray: 850;
+  stroke-dashoffset: 200;
+}
+
+#day .skills .circleSkills .scss::before {
+  content: '95%';
+}
+
+#day .skills .circleSkills .scss::after {
+  content: 'scss';
+}
+
+#day .skills .circleSkills .scss svg {
+  stroke: #9c1de7;
+  stroke-dasharray: 850;
+  stroke-dashoffset: 200;
+}
+
+#day .skills .circleSkills .css::before {
+  content: '95%';
+}
+
+#day .skills .circleSkills .css::after {
+  content: 'css';
+}
+
+#day .skills .circleSkills .css svg {
+  stroke: #2d6cdf;
+  stroke-dasharray: 850;
+  stroke-dashoffset: 200;
+}
+
+#day .skills .circleSkills .js::before {
+  content: '90%';
+}
+
+#day .skills .circleSkills .js::after {
+  content: 'javascript';
+}
+
+#day .skills .circleSkills .js svg {
+  stroke: #f9ff21;
+  stroke-dasharray: 750;
+  stroke-dashoffset: 150;
+}
+
+#day .skills .circleSkills .react::before {
+  content: '90%';
+}
+
+#day .skills .circleSkills .react::after {
+  content: 'react';
+}
+
+#day .skills .circleSkills .react svg {
+  stroke: #2d6cdf;
+  stroke-dasharray: 750;
+  stroke-dashoffset: 150;
+}
+
+#day .skills .circleSkills .Redux::before {
+  content: '80%';
+}
+
+#day .skills .circleSkills .Redux::after {
+  content: 'redux';
+}
+
+#day .skills .circleSkills .Redux svg {
+  stroke: #9c1de7;
+  stroke-dasharray: 650;
+  stroke-dashoffset: 150;
+}
+
+#day .skills .circleSkills .GraphQl::before {
+  content: '60%';
+}
+
+#day .skills .circleSkills .GraphQl::after {
+  content: 'graphQL';
+}
+
+#day .skills .circleSkills .GraphQl svg {
+  stroke: #fc5185;
+  stroke-dasharray: 550;
+  stroke-dashoffset: 150;
+}
+
+#day .skills .circleSkills .mongodb::before {
+  content: '70%';
+}
+
+#day .skills .circleSkills .mongodb::after {
+  content: 'mongoDB';
+}
+
+#day .skills .circleSkills .mongodb svg {
+  stroke: #17b978;
+  stroke-dasharray: 600;
+  stroke-dashoffset: 150;
+}
+
+#day .skills .circleSkills .mysql::before {
+  content: '50%';
+}
+
+#day .skills .circleSkills .mysql::after {
+  content: 'mysql';
+}
+
+#day .skills .circleSkills .mysql svg {
+  stroke: #2d6cdf;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 150;
+}
+
+#day .skills .circleSkills .nodejs::before {
+  content: '90%';
+}
+
+#day .skills .circleSkills .nodejs::after {
+  content: 'nodejs';
+}
+
+#day .skills .circleSkills .nodejs svg {
+  stroke: #17b978;
+  stroke-dasharray: 750;
+  stroke-dashoffset: 150;
+}
+
+#day .skills .circleSkills .javascriptExperince::before {
+  content: '95%';
+}
+
+#day .skills .circleSkills .javascriptExperince::after {
+  content: 'javascript Experince';
+  font-size: 19px !important;
+}
+
+#day .skills .circleSkills .javascriptExperince svg {
+  stroke: #e41749;
+  stroke-dasharray: 850;
+  stroke-dashoffset: 200;
+}
+
+@keyframes crossOver {
+  0% {
+    -webkit-transform: translateX(-1200px);
+            transform: translateX(-1200px);
+  }
+  90% {
+    -webkit-transform: translateX(1200px);
+            transform: translateX(1200px);
+  }
+}
+
+@keyframes show {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+/*# sourceMappingURL=skills.css.map */

@@ -1,0 +1,369 @@
+#dark #profile {
+  width: 100%;
+}
+
+#dark #profile #intro {
+  margin-left: auto;
+  margin-top: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#dark #profile #intro #avatar {
+  width: 250px;
+  height: 250px;
+  border: 2px solid #00d1ff;
+  -webkit-box-shadow: 0 0 30px #00d1ff;
+          box-shadow: 0 0 30px #00d1ff;
+  overflow: hidden;
+  border-radius: 50%;
+  background: url("../../images/selfiecamera_2019-03-16-19-00-02-843.jpg");
+  background-position: top;
+  background-size: cover;
+  -webkit-transition: -webkit-transform 300ms eae;
+  transition: -webkit-transform 300ms eae;
+  transition: transform 300ms eae;
+  transition: transform 300ms eae, -webkit-transform 300ms eae;
+}
+
+#dark #profile #intro #avatar:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: -webkit-transform 300ms eae;
+  transition: -webkit-transform 300ms eae;
+  transition: transform 300ms eae;
+  transition: transform 300ms eae, -webkit-transform 300ms eae;
+}
+
+#dark #profile #intro div {
+  font-weight: bold;
+  font: 15px;
+  text-align: center;
+  color: #fff;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#dark #profile #intro div header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  font-size: 25px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#eac100), to(#28c7fa));
+  background: linear-gradient(to top, #eac100, #28c7fa);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2rem;
+}
+
+#dark #profile #intro div header::first-letter {
+  text-transform: uppercase;
+}
+
+#dark #profile #intro div header span {
+  -webkit-animation: textup 200ms ease infinite;
+          animation: textup 200ms ease infinite;
+}
+
+#dark #profile #intro div address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+}
+
+#dark #profile #intro div address span {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin: 2rem 0;
+}
+
+#dark #profile #intro div address span a {
+  position: relative;
+  color: #28c7fa;
+  padding: 0.5rem;
+  text-decoration: none;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+
+#dark #profile #intro div address span a::before {
+  position: absolute;
+  content: '';
+  top: -10px;
+  left: 0;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  width: 100%;
+  height: 3px;
+  background: #eac100;
+  border-radius: 25px;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 300ms ease;
+  transition: -webkit-transform 300ms ease;
+  transition: transform 300ms ease;
+  transition: transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+#dark #profile #intro div address span a::after {
+  position: absolute;
+  content: '';
+  bottom: -10px;
+  right: 0;
+  width: 100%;
+  height: 3px;
+  background: #eac100;
+  border: 25px;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 300ms ease;
+  transition: -webkit-transform 300ms ease;
+  transition: transform 300ms ease;
+  transition: transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+#dark #profile #intro div address span a:hover::before {
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transition: -webkit-transform 300ms ease;
+  transition: -webkit-transform 300ms ease;
+  transition: transform 300ms ease;
+  transition: transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+#dark #profile #intro div address span a:hover::after {
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transition: -webkit-transform 300ms ease;
+  transition: -webkit-transform 300ms ease;
+  transition: transform 300ms ease;
+  transition: transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+#dark #profile #intro div address span a:hover {
+  opacity: 0.6;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+
+/*******************************day********************************/
+#day #profile {
+  width: 100%;
+}
+
+#day #profile #intro {
+  margin-left: auto;
+  margin-top: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#day #profile #intro #avatar {
+  width: 250px;
+  height: 250px;
+  border: 2px solid #086972;
+  -webkit-box-shadow: 0 0 30px #002651;
+          box-shadow: 0 0 30px #002651;
+  overflow: hidden;
+  border-radius: 50%;
+  background: url("../../images/selfiecamera_2019-03-16-19-00-02-843.jpg");
+  background-position: top;
+  background-size: cover;
+  -webkit-transition: -webkit-transform 300ms eae;
+  transition: -webkit-transform 300ms eae;
+  transition: transform 300ms eae;
+  transition: transform 300ms eae, -webkit-transform 300ms eae;
+}
+
+#day #profile #intro #avatar:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: -webkit-transform 300ms eae;
+  transition: -webkit-transform 300ms eae;
+  transition: transform 300ms eae;
+  transition: transform 300ms eae, -webkit-transform 300ms eae;
+}
+
+#day #profile #intro div {
+  font-weight: bold;
+  font: 15px;
+  text-align: center;
+  color: black;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#day #profile #intro div header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  font-size: 25px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#333), to(#28c7fa));
+  background: linear-gradient(to top, #333, #28c7fa);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2rem;
+}
+
+#day #profile #intro div header::first-letter {
+  text-transform: uppercase;
+}
+
+#day #profile #intro div header span {
+  -webkit-animation: textup 200ms ease infinite;
+          animation: textup 200ms ease infinite;
+}
+
+#day #profile #intro div address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+}
+
+#day #profile #intro div address span {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 2rem;
+}
+
+#day #profile #intro div address span a {
+  position: relative;
+  color: #002651;
+  padding: 0.5rem;
+  text-decoration: none;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+
+#day #profile #intro div address span a::before {
+  position: absolute;
+  content: '';
+  top: -10px;
+  left: 0;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  width: 100%;
+  height: 3px;
+  background: #086972;
+  border-radius: 25px;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 300ms ease;
+  transition: -webkit-transform 300ms ease;
+  transition: transform 300ms ease;
+  transition: transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+#day #profile #intro div address span a::after {
+  position: absolute;
+  content: '';
+  bottom: -10px;
+  right: 0;
+  width: 100%;
+  height: 3px;
+  background: #086972;
+  border: 25px;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 300ms ease;
+  transition: -webkit-transform 300ms ease;
+  transition: transform 300ms ease;
+  transition: transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+#day #profile #intro div address span a:hover::before {
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transition: -webkit-transform 300ms ease;
+  transition: -webkit-transform 300ms ease;
+  transition: transform 300ms ease;
+  transition: transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+#day #profile #intro div address span a:hover::after {
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transition: -webkit-transform 300ms ease;
+  transition: -webkit-transform 300ms ease;
+  transition: transform 300ms ease;
+  transition: transform 300ms ease, -webkit-transform 300ms ease;
+}
+
+#day #profile #intro div address span a:hover {
+  opacity: 0.6;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+/*# sourceMappingURL=profile.css.map */

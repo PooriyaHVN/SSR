@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8dde19db.chunk.css",
+    "main.js": "/static/js/main.fade17a7.chunk.js",
+    "main.js.map": "/static/js/main.fade17a7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
+    "static/js/2.45700cd7.chunk.js": "/static/js/2.45700cd7.chunk.js",
+    "static/js/2.45700cd7.chunk.js.map": "/static/js/2.45700cd7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.16999f440b6ad785f25254f2a5030ab6.js": "/precache-manifest.16999f440b6ad785f25254f2a5030ab6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8dde19db.chunk.css.map": "/static/css/main.8dde19db.chunk.css.map",
+    "static/js/2.45700cd7.chunk.js.LICENSE.txt": "/static/js/2.45700cd7.chunk.js.LICENSE.txt",
+    "static/media/app.css": "/static/media/GT.692eb1d9.eot",
+    "static/media/footer.css": "/static/media/footer.ecfce1b8.svg",
+    "static/media/profile.css": "/static/media/selfiecamera_2019-03-16-19-00-02-843.1b9aed18.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09b85ec0.js",
+    "static/js/2.45700cd7.chunk.js",
+    "static/css/main.8dde19db.chunk.css",
+    "static/js/main.fade17a7.chunk.js"
+  ]
+}

@@ -1,0 +1,12 @@
+#dark #signup-form div:nth-of-type(1)::after, #day #signup-form div:nth-of-type(1)::after {
+  content: 'Username' !important;
+}
+
+#dark #signup-form div:nth-of-type(2)::after, #day #signup-form div:nth-of-type(2)::after {
+  content: 'Email' !important;
+}
+
+#dark #signup-form div:nth-of-type(3)::after, #day #signup-form div:nth-of-type(3)::after {
+  content: 'Password' !important;
+}
+/*# sourceMappingURL=signup.css.map */

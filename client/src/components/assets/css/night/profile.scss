@@ -1,0 +1,251 @@
+#dark{
+     $lightBlue :#28c7fa ;
+    $white :#fff ;
+    $dark :#333 ;
+    $tomato : #ff304f;
+    $yellow : #faee1c;
+    $lightPurple:#673AB7;
+    $darkBlue : #002651;
+    $purple : purple;
+    $gold : #eac100;
+    $lightGreen:#00d1ff;
+    #profile{
+    width: 100%;
+    #intro{
+         margin-left: auto;
+            margin-top: 6rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        #avatar{
+            width: 250px;
+            height: 250px;
+            border: 2px solid $lightGreen;
+            box-shadow: 0 0 30px $lightGreen;
+            overflow: hidden;
+            border-radius: 50%;
+            background: url('../../images/selfiecamera_2019-03-16-19-00-02-843.jpg');
+            background-position: top;
+            background-size: cover;
+            transition: transform 300ms eae ;
+            &:hover{
+                transform: scale(1.2);
+                transition: transform 300ms eae ;
+            }
+        }
+        div{
+            font-weight: bold;
+            font: 15px;
+            text-align: center;
+            color: $white;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            header{
+                &::first-letter{
+                    text-transform: uppercase;
+                }
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+                font-size: 25px;
+                background:linear-gradient(to top , $gold , $lightBlue);
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                margin-bottom: 2rem;
+                span{
+                    animation: textup 200ms ease infinite;
+
+                }
+            }
+            address{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-top: 1rem;
+                span{
+                    font-size: 20px;
+                    font-weight: bold;
+                    letter-spacing: 3px;
+                    margin: 2rem 0;
+                    a{
+                        position: relative;
+                        color: $lightBlue;
+                        padding: 0.5rem;
+                        text-decoration: none ;
+                        transition: opacity 200ms ease;
+                        &::before{
+                            position: absolute;
+                            content: '';
+                            top: -10px;
+                            left: 0;
+                            transform-origin: right;
+                            width: 100%;
+                            height: 3px;
+                            background: $gold;
+                            border-radius: 25px;
+                            transform: scaleX(0);
+                            transition: transform 300ms ease;
+                        }
+                        &::after{
+                            position: absolute;
+                            content: '';
+                            bottom: -10px;
+                            right: 0;
+                            width: 100%;
+                            height: 3px;
+                            background: $gold;
+                            border: 25px;
+                            transform-origin: left;
+                            transform: scaleX(0);
+                            transition: transform 300ms ease;
+                        }
+                        &:hover::before{
+                             transform-origin: right;
+                            transform: scaleX(1);
+                            transition: transform 300ms ease;
+                        } &:hover::after{
+                            transform-origin: left;
+                            transform: scaleX(1);
+                            transition: transform 300ms ease;
+                        }
+                        &:hover{
+                            opacity: 0.6;
+                            transition: opacity 200ms ease;
+                        }
+                    }
+                }
+            }
+        }
+}
+}
+}
+
+/*******************************day********************************/
+#day{
+     $lightBlue :#28c7fa ;
+    $white :#fff ;
+    $dark :#333 ;
+    $tomato : #ff304f;
+    $yellow : #faee1c;
+    $lightPurple:#673AB7;
+    $darkBlue : #002651;
+    $purple : purple;
+    $gold : #eac100;
+    $lightGreen:#00d1ff;
+    $darkGreen :#086972;
+    #profile{
+    width: 100%;
+    #intro{
+         margin-left: auto;
+            margin-top: 6rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        #avatar{
+            width: 250px;
+            height: 250px;
+            border: 2px solid $darkGreen;
+            box-shadow: 0 0 30px $darkBlue;
+            overflow: hidden;
+            border-radius: 50%;
+            background: url('../../images/selfiecamera_2019-03-16-19-00-02-843.jpg');
+            background-position: top;
+            background-size: cover;
+            transition: transform 300ms eae ;
+            &:hover{
+                transform: scale(1.2);
+                transition: transform 300ms eae ;
+            }
+        }
+        div{
+            font-weight: bold;
+            font: 15px;
+            text-align: center;
+            color: black;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            header{
+                &::first-letter{
+                    text-transform: uppercase;
+                }
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+                font-size: 25px;
+                background:linear-gradient(to top , $dark , $lightBlue);
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                margin-bottom: 2rem;
+                span{
+                    animation: textup 200ms ease infinite;
+
+                }
+            }
+            address{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-top: 1rem;
+                span{
+                    font-size: 20px;
+                    font-weight: bold;
+                    letter-spacing: 3px;
+                    margin-bottom: 2rem;
+                    a{
+                        position: relative;
+                        color: $darkBlue;
+                        padding: 0.5rem;
+                        text-decoration: none ;
+                        transition: opacity 200ms ease;
+                        &::before{
+                            position: absolute;
+                            content: '';
+                            top: -10px;
+                            left: 0;
+                            transform-origin: right;
+                            width: 100%;
+                            height: 3px;
+                            background: $darkGreen;
+                            border-radius: 25px;
+                            transform: scaleX(0);
+                            transition: transform 300ms ease;
+                        }
+                        &::after{
+                            position: absolute;
+                            content: '';
+                            bottom: -10px;
+                            right: 0;
+                            width: 100%;
+                            height: 3px;
+                            background: $darkGreen;
+                            border: 25px;
+                            transform-origin: left;
+                            transform: scaleX(0);
+                            transition: transform 300ms ease;
+                        }
+                        &:hover::before{
+                             transform-origin: right;
+                            transform: scaleX(1);
+                            transition: transform 300ms ease;
+                        } &:hover::after{
+                            transform-origin: left;
+                            transform: scaleX(1);
+                            transition: transform 300ms ease;
+                        }
+                        &:hover{
+                            opacity: 0.6;
+                            transition: opacity 200ms ease;
+                        }
+                    }
+                }
+            }
+        }
+}
+}
+}

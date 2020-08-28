@@ -1,0 +1,177 @@
+@font-face{
+    font-family: GTWalsheim ;
+    src: url('../../Font/GT/GT.eot'),
+    url('../../Font//GT//GT.eot?#iefix') format("embedded-opentype"),
+    url('../../Font/GT/GT.woff') format("woff"),
+    url('../../Font/GT/GT.ttf') format("truetype");
+}
+$dark : #333;
+$lightBlue: #28c7fa;
+$lightPurple:#775ada;
+$tomato : #ff304f;
+$golden : rgba(255, 224, 130,0.6);
+$yellow:#fba834;
+$brown : #200f21;
+$purple : purple;
+$lightGray : #d7eaea;
+$gray : #ccc;
+$darkBlue : #071e3d;
+$orange : #ffb174;
+$gray2 : #9E9E9E;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 300ms ease;
+}
+html{
+     scroll-behavior: smooth;
+     font-family: GTWalsheim !important;
+}
+body{
+    overflow-x: hidden;
+}
+#root{
+    position: relative;
+    overflow: hidden;
+}
+#loading{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: black;
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        z-index: 9999999999999;
+        div{
+            width: 25px;
+            height: 25px;
+            border-radius:50%;
+        }
+        :nth-child(1){
+            background: $lightBlue;
+            animation: loading 1500ms ease infinite;
+        }
+        :nth-child(2){
+            background: $lightPurple;
+            animation: loading 1500ms ease infinite;
+            animation-delay:300ms;
+        } :nth-child(3){
+            background: $darkBlue;
+            animation: loading 1500ms ease infinite;
+            animation-delay:600ms;
+        } :nth-child(4){
+            background: $tomato;
+            animation: loading 1500ms ease infinite;
+            animation-delay:900ms;
+        }
+        @keyframes loading {
+            0% , 100%{
+                transform: translateY(-20px);
+            }50%{
+                transform: translateY(20px);
+            }
+        }
+    }
+.glowing{
+    position: absolute;
+    height: 60% !important;
+    min-width: 750px;
+    margin: -150px;
+    transform-origin: right;
+    animation: colorChange 5s linear infinite;
+    z-index: -1;
+    user-select: none;
+    overflow: hidden !important;
+    &:nth-child(even){
+         transform-origin: left;
+    }
+    &:nth-child(6),
+    &:nth-child(7),
+    &:nth-child(8){
+        height: 160% !important;
+    }
+    span{
+        position: absolute;
+        top: calc(80px * var(--i));
+        left: calc(80px * var(--i));
+        bottom: calc(80px * var(--i));
+        right: calc(80px * var(--i));
+        &:nth-child(3n + 1){
+            animation: animate 10s alternate infinite;
+        }
+        &:nth-child(3n + 2){
+            animation: animate-reverse 3s alternate infinite;
+        }
+          &:nth-child(3n + 3){
+            animation: animate 8s alternate infinite;
+        }
+        &::before{
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: -8px;
+            height: 15px;
+            width: 15px;
+            background: #f00;
+            border-radius: 50%;
+        }
+        &:nth-child(3n + 1)::before{
+            background: rgba(134 , 255 , 0 ,1);
+            box-shadow: 0 0 20px rgba(134,255,0,1),
+                        0 0 40px rgba(134,255,0,1),
+                        0 0 60px rgba(134,255,0,1),
+                        0 0 80px rgba(134,255,0,1),
+                        0 0 0 8px rgba(134,255,0,.1);
+        }
+           &:nth-child(3n + 2)::before{
+            background: rgba(255 , 214 , 0 ,1);
+            box-shadow: 0 0 20px rgba(255,214,0,1),
+                        0 0 40px rgba(255,214,0,1),
+                        0 0 60px rgba(255,214,0,1),
+                        0 0 80px rgba(255,214,0,1),
+                        0 0 0 8px rgba(255,214,0,.1);
+        }
+           &:nth-child(3n + 3)::before{
+            background: rgba(0, 266,255,1);
+            box-shadow: 0 0 20px rgba(0,266,255,1),
+                        0 0 40px rgba(0,266,255,1),
+                        0 0 60px rgba(0,266,255,1),
+                        0 0 80px rgba(0,266,255,1),
+                        0 0 0 8px rgba(0,266,255,.1);
+        }
+    }
+}
+#dark{
+    background: black;
+}
+#day{
+   background: #ccc;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+    transform: rotate(360deg);
+    }
+}
+@keyframes animate-reverse{
+     0%{
+        transform: rotate(360deg);
+    }
+    100%{
+    transform: rotate(0deg);
+    }
+}
+@keyframes colorChange{
+    0%{
+        filter: hue-rotate(0deg);
+        transform: rotate(0deg);
+    }
+     100%{
+        filter: hue-rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
